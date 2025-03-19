@@ -1,10 +1,6 @@
 package com.spring.velogcloneproject.config;
 
-import com.spring.velogcloneproject.post.domain.Post;
 import com.spring.velogcloneproject.post.domain.dto.PostConverter;
-import com.spring.velogcloneproject.post.domain.dto.PostCreateRequest;
-import org.modelmapper.Condition;
-import org.modelmapper.Conditions;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

@@ -4,16 +4,12 @@ import com.spring.velogcloneproject.config.ModelMapperConfig;
 import com.spring.velogcloneproject.post.domain.dto.PostCreateRequest;
 import com.spring.velogcloneproject.post.domain.dto.PostCreateResponse;
 import com.spring.velogcloneproject.post.repository.PostMemoryRepositoryImpl;
-import com.spring.velogcloneproject.post.repository.PostRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.modelmapper.ModelMapper;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.*;
 
 class PostServiceTest {

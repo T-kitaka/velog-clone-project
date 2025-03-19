@@ -1,7 +1,5 @@
 package com.spring.velogcloneproject.post.domain.dto;
 
-import java.time.LocalDateTime;
-
 public class PostCreateRequest {
     private Long userId;
     private String title;
